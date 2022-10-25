@@ -1,0 +1,2 @@
+start:
+	@bash compile.sh
