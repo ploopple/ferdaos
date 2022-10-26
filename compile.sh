@@ -13,5 +13,5 @@ clang++ -Weverything -Wno-poison-system-directories src/Main.cpp -o dist/Main
 
 if [[ $? = 0 ]]; then
     echo "Run the Main file in dist/Main"
-    ./dist/Main src/main.frds
+    ./dist/Main examples/main.frds
 fi
